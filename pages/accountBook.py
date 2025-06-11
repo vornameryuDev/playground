@@ -20,7 +20,7 @@ st.markdown("가게부대시보드다!!!")
 
 
 #-------------------- variables
-df = pd.read_excel("testData.xlsx") #원본 데이터
+df = pd.read_excel("../testData.xlsx") #원본 데이터
 today = datetime.today().date() #오늘날짜 기준 설정
 min_year = 2023
 max_year = 2025
